@@ -57,6 +57,7 @@ const ComputerVisionAnalyzer = () => {
         onChange={(e) => setImageUrl(e.target.value)}
       />
       <br/>
+      <br/>
       <button onClick={analyzeImage}>Analizar Imagen</button>
       {analysisResult && (
         <div>
